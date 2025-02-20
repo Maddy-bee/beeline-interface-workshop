@@ -1,20 +1,17 @@
 import styles from "./page.module.css"
-import Image from "next/image"
 
 interface GardenStats {
   readonly totalSpecies: number
   endangeredSpecies: number
   conservationEfforts: string[]
   lastUpdated?: Date
-  imageUrl: string
 }
 
 const gardenStats: GardenStats = {
   totalSpecies: 1500,
   endangeredSpecies: 50,
   conservationEfforts: ["Habitat restoration", "Pollinator-friendly planting", "Pesticide reduction"],
-  lastUpdated: new Date("2023-04-15"),
-  imageUrl: "/placeholder.svg?height=300&width=400",
+  lastUpdated: new Date("2025-02-20"),
 }
 
 export default function Home() {
@@ -39,13 +36,6 @@ export default function Home() {
         </ul>
       </div>
       <div className={styles.imageContainer}>
-        <Image
-          src={gardenStats.imageUrl || "/placeholder.svg"}
-          alt="British Garden"
-          width={400}
-          height={300}
-          className={styles.image}
-        />
       </div>
       
     </div>
