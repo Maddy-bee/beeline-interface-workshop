@@ -40,13 +40,6 @@ export default function BeesPage() {
         {bees.map((bee, index) => (
           <div key={index} className={styles.beeCard}>
             <h2>{bee.species}</h2>
-            <Image
-              src={bee.imageUrl || "/placeholder.svg"}
-              alt={bee.species}
-              width={100}
-              height={100}
-              className={styles.beeImage}
-            />
             <p>{bee.description}</p>
             <p>Pollination Efficiency: {(bee.pollinationEfficiency * 100).toFixed(0)}%</p>
             {bee.endangeredStatus && <p>Status: {bee.endangeredStatus}</p>}

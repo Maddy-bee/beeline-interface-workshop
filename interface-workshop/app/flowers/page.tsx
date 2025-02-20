@@ -1,11 +1,6 @@
 import styles from "./flowers.module.css"
 
 interface Flower {
-  readonly name: string
-  scientificName: string
-  floweringSeason: string[]
-  colors: string[]
-  nectarRating?: number
 }
 
 const flowers: Flower[] = [
