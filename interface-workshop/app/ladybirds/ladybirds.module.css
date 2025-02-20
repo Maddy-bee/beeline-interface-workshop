@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--pastel-green);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.ladybirdList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ladybirdCard {
+  background-color: var(--pastel-green);
+  border: 1px solid #7ac0b0;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+}
+
+.ladybirdCard h2 {
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+
+

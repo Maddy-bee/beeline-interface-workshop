@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--pastel-pink);
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.flowerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.flowerCard {
+  background-color: var(--pastel-yellow);
+  border: 1px solid #e2c76e;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+}
+
+.flowerCard h2 {
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+
