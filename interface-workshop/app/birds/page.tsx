@@ -2,11 +2,6 @@ import styles from "./birds.module.css"
 
 // Main Bird interface
 export interface Bird {
-  readonly species: string
-  habitat: string[]
-  wingspan: number
-  diet: string[]
-  
 }
 
 // Interface for demonstrating duck typing
@@ -44,7 +39,7 @@ function adaptBirdToDisplayable(bird: Bird): Displayable {
   }
 }
 
-// A completely different object that also satisfies Displayable
+// Add a bird feeder 
 const birdFeeder: Displayable = {
   name: "Wooden Bird Feeder",
   getDescription: () => "A handcrafted wooden bird feeder for garden birds",
@@ -78,7 +73,7 @@ export default function BirdsPage() {
         ))}
       </div>
 
-      <h2 className={styles.subtitle}>Walks like a Duck Demo</h2>
+      <h2 className={styles.subtitle}>Walks like a Duck Typing Demo</h2>
       <div className={styles.duckTypingDemo}>
         {DisplayItem(adaptBirdToDisplayable(birds[0]))}
         {DisplayItem(birdFeeder)}

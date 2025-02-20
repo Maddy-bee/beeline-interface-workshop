@@ -2,10 +2,6 @@ import styles from "./butterflies.module.css"
 
 
 interface Butterfly {
-  readonly name: string
-  wingspanCm: number
-  colors: string[]
-  migratoryPattern?: string
 }
 
 const butterflies: Butterfly[] = [

@@ -1,11 +1,6 @@
 import styles from "./ladybirds.module.css"
 
 interface Ladybird {
-  readonly species: string
-  spotCount: number
-  primaryColor: string
-  beneficialPrey: string[]
-  invasiveStatus?: boolean
 }
 
 const ladybirds: Ladybird[] = [
