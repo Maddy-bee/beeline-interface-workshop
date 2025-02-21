@@ -73,7 +73,7 @@ export default function BirdsPage() {
         ))}
       </div>
 
-      <h2 className={styles.subtitle}>Walks like a Duck Typing Demo</h2>
+      <h2 className={styles.subtitle}>Quacks like a Duck Typing Demo</h2>
       <div className={styles.duckTypingDemo}>
         {DisplayItem(adaptBirdToDisplayable(birds[0]))}
         {DisplayItem(birdFeeder)}

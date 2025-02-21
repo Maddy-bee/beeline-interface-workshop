@@ -1,6 +1,7 @@
 import styles from "./flowers.module.css"
 
 interface Flower {
+  
 }
 
 const flowers: Flower[] = [
