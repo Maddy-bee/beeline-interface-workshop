@@ -48,7 +48,7 @@ Your bird interface will have 4 properties. Your name property should not be abl
 
 # Task 4b
 
-Review the duck typing example and try to understand how it is being applied to display the 
+Review the duck typing example and try to understand how it is being applied to display objects on the page. 
 
 # Bonus 🎨
 
